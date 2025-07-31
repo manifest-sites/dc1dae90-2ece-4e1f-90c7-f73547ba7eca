@@ -95,7 +95,7 @@ function LlamaApp() {
         {/* Header */}
         <div className="text-center mb-8">
           <Title level={1} className="text-4xl md:text-6xl mb-4 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
-            🦙 Llama World
+            Llama World
           </Title>
           <Paragraph className="text-lg text-gray-600 max-w-2xl mx-auto">
             Welcome to the amazing world of llamas! Discover, manage, and learn about these wonderful animals.
