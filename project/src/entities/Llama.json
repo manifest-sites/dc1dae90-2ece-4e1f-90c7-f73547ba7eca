@@ -1,0 +1,51 @@
+{
+  "name": "Llama",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the llama"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the llama"
+    },
+    "breed": {
+      "type": "string",
+      "description": "Breed of the llama (Classic Llama, Suri Llama, etc.)"
+    },
+    "color": {
+      "type": "string",
+      "description": "Primary color of the llama"
+    },
+    "age": {
+      "type": "number",
+      "description": "Age of the llama in years"
+    },
+    "weight": {
+      "type": "number",
+      "description": "Weight of the llama in pounds"
+    },
+    "temperament": {
+      "type": "string",
+      "description": "Temperament description (Gentle, Playful, Calm, etc.)"
+    },
+    "funFact": {
+      "type": "string",
+      "description": "Interesting fact about this llama"
+    },
+    "imageUrl": {
+      "type": "string",
+      "description": "URL to llama image"
+    },
+    "isFavorite": {
+      "type": "boolean",
+      "description": "Whether this llama is marked as favorite"
+    }
+  },
+  "required": [
+    "name",
+    "breed",
+    "color"
+  ]
+}
